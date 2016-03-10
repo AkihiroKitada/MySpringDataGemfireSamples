@@ -103,17 +103,18 @@ You can run the application with the following steps.
  - sh ./stopCS1.sh
  - sh ./stopLocator.sh
 
-* If you see the following message when starting your locator, ...
+--------------------------------------------------------------------------------
+
+
+If you see the following message when starting your locator, ...
 
 	Please use "connect --locator=192.168.1.100[55221]" to connect Gfsh to the 	locator.
-	
+		
 then you may have to add the following line at /etc/hosts according to your environment to start a locator and servers with using gfsh
 
 	[your machine IP address] localhost
 	
 	ex) 192.168.1.100	localhost 
-
---------------------------------------------------------------------------------
 
 For help please take a look at the Spring Data Gemfire documentation:
 
