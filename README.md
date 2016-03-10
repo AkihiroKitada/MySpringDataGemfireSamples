@@ -18,19 +18,6 @@ You can run the application with the following steps.
  - gfsh
 6. Execute some command and put something data like the following. You can see the client application respond according to your put command execute.
 
-	    _________________________     __
-	    
-	   / _____/ ______/ ______/ /____/ /
-	   
-	  / /  __/ /___  /_____  / _____  / 
-	  
-	 / /__/ / ____/  _____/ / /    / /
-	   
-	/______/_/      /______/_/    /_/    v1.0.0-incubating.M1
-	
-	   
-    Monitor and Manage GemFire
-    
     gfsh>connect --locator=localhost[55221]
     
     Connecting to Locator at [host=localhost, port=55221] ..
